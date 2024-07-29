@@ -29,7 +29,7 @@ const Story: React.FC = () => {
   return (
     <>
       <div className="header">
-        <Link to="/stories">Back to stories</Link>
+        <Link to="/stories">Back to stories!</Link>
         <h1>{story.title}</h1>
         <ContentfulDocument document={story.description} />
       </div>
